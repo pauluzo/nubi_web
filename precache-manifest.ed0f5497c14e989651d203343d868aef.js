@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad69bcc21fc4a34b49cb619687b7414b",
+    "revision": "0fbc450a8743774591fe9d878f648bfe",
     "url": "/nubieducation/index.html"
   },
   {
-    "revision": "87b4adb70682c785d755",
-    "url": "/nubieducation/static/css/main.aff60b2b.chunk.css"
+    "revision": "c554b90af271381b7bae",
+    "url": "/nubieducation/static/css/main.6f968a83.chunk.css"
   },
   {
-    "revision": "82e15d7a9edb999a883c",
-    "url": "/nubieducation/static/js/2.c5f2e226.chunk.js"
+    "revision": "0d3c425af43fac5ab1eb",
+    "url": "/nubieducation/static/js/2.6307b100.chunk.js"
   },
   {
-    "revision": "87b4adb70682c785d755",
-    "url": "/nubieducation/static/js/main.86412ba0.chunk.js"
+    "revision": "c554b90af271381b7bae",
+    "url": "/nubieducation/static/js/main.b2dde37d.chunk.js"
   },
   {
-    "revision": "8cfdf785d09432c7bd74",
-    "url": "/nubieducation/static/js/runtime-main.af05f851.js"
+    "revision": "fc266fc0843e684d182b",
+    "url": "/nubieducation/static/js/runtime-main.c9f974a2.js"
   },
   {
     "revision": "179f6a778da31168b27b9334f3f2bc26",

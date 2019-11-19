@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nubieducation/precache-manifest.a091f9f7d58705048d2a8b2d3af23f5c.js"
+  "/nubieducation/precache-manifest.ed0f5497c14e989651d203343d868aef.js"
 );
 
 self.addEventListener('message', (event) => {
