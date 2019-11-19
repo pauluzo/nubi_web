@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/nubieducation/static/css/main.aff60b2b.chunk.css",
+    "main.js": "/nubieducation/static/js/main.86412ba0.chunk.js",
+    "main.js.map": "/nubieducation/static/js/main.86412ba0.chunk.js.map",
+    "runtime-main.js": "/nubieducation/static/js/runtime-main.af05f851.js",
+    "runtime-main.js.map": "/nubieducation/static/js/runtime-main.af05f851.js.map",
+    "static/js/2.c5f2e226.chunk.js": "/nubieducation/static/js/2.c5f2e226.chunk.js",
+    "static/js/2.c5f2e226.chunk.js.map": "/nubieducation/static/js/2.c5f2e226.chunk.js.map",
+    "index.html": "/nubieducation/index.html",
+    "precache-manifest.a091f9f7d58705048d2a8b2d3af23f5c.js": "/nubieducation/precache-manifest.a091f9f7d58705048d2a8b2d3af23f5c.js",
+    "service-worker.js": "/nubieducation/service-worker.js",
+    "static/css/main.aff60b2b.chunk.css.map": "/nubieducation/static/css/main.aff60b2b.chunk.css.map",
+    "static/media/John_news.jpg": "/nubieducation/static/media/John_news.179f6a77.jpg",
+    "static/media/Sarah_test.png": "/nubieducation/static/media/Sarah_test.2a6f8488.png",
+    "static/media/Tobe_test.png": "/nubieducation/static/media/Tobe_test.080819b0.png",
+    "static/media/Wale_test.jpg": "/nubieducation/static/media/Wale_test.49981620.jpg",
+    "static/media/Winifred_test.png": "/nubieducation/static/media/Winifred_test.45be2dc1.png",
+    "static/media/Zainab_test.png": "/nubieducation/static/media/Zainab_test.17502af2.png",
+    "static/media/home_image.jpg": "/nubieducation/static/media/home_image.c9418976.jpg",
+    "static/media/home_image1.jpg": "/nubieducation/static/media/home_image1.c981745a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af05f851.js",
+    "static/js/2.c5f2e226.chunk.js",
+    "static/css/main.aff60b2b.chunk.css",
+    "static/js/main.86412ba0.chunk.js"
+  ]
+}
