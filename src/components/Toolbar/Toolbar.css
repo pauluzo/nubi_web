@@ -41,7 +41,7 @@
   font-size: 1rem;
 }
 
-.toolbar_ul a:hover, a:active {
+.toolbar_ul a:hover {
   background-color: antiquewhite;
   color: black;
   border-radius: 25px 25px 25px 25px;

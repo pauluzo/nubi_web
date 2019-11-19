@@ -1,6 +1,7 @@
 import React from 'react';
 import './SideDrawer.css'
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+import Logo from '../Assets/nubi_logo.png';
 
 const SideDrawer = (props) => {
   let classes;
@@ -10,15 +11,22 @@ const SideDrawer = (props) => {
     classes = 'side-drawer'
   }
   return(
-    <div className={classes} >
-      <nav>
-        <ul>
-          <li><Link to='/'>HOME</Link></li>
-          <li><Link to='/testimonials'>TESTIMONIALS</Link></li>
-          <li><Link to='/news'>NEWS AND EVENTS</Link></li>
-          <li><Link to='/contact'>CONTACT US</Link></li>
-        </ul>
-      </nav>
+    <div className='drawer_container'>
+      <div className={classes} >
+        <div className='logo_container'>
+          <img alt='logo' src={Logo} />
+        </div>
+        <div>
+          <nav>
+            <ul>
+              <li><NavLink exact activeStyle={{backgroundColor: 'rgb(32, 29, 29)', borderRadius: '20px 0px 0px 20px'}} to='/'>HOME</NavLink></li>
+              <li><NavLink activeStyle={{backgroundColor: 'rgb(32, 29, 29)', borderRadius: '20px 0px 0px 20px'}} to='/testimonials'>TESTIMONIALS</NavLink></li>
+              <li><NavLink activeStyle={{backgroundColor: 'rgb(32, 29, 29)', borderRadius: '20px 0px 0px 20px'}} to='/news'>NEWS AND EVENTS</NavLink></li>
+              <li><NavLink activeStyle={{backgroundColor: 'rgb(32, 29, 29)', borderRadius: '20px 0px 0px 20px'}} to='/contact'>CONTACT US</NavLink></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
   );
 }

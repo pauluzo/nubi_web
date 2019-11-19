@@ -1,6 +1,6 @@
 {
   "homepage": "http://pauluzo.github.io/nubieducation",
-  "name": "website",
+  "name": "nubi_education",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
