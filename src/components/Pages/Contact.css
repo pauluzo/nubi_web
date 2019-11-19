@@ -1,0 +1,140 @@
+.contact_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em 0px;
+}
+
+.inner_container {
+  width: 90%;
+}
+
+.inner_container .divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(26, 24, 24, 0.3);
+}
+
+.map_address {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1em;
+}
+
+.map iframe{
+  width: 350px;
+  height: 300px;
+}
+
+.address {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.form_container {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.names {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.name_input_container {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.name_input_container input {
+  width: 100%;
+  height: 30px;
+  background-color: #fafafa;
+  border: 1px solid rgb(169, 169, 169);
+  box-sizing: border-box;
+}
+
+.name_input_container div {
+  width: 48%;
+}
+
+.name_input_container label {
+  font-size: 12px;
+}
+
+.other_titles {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.other_titles input {
+  width: 100%;
+  height: 30px;
+  background-color: #fafafa;
+  border: 1px solid rgb(169, 169, 169);
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  background-color: #fafafa;
+  border: 1px solid rgb(169, 169, 169);
+  box-sizing: border-box;
+}
+
+.submit_button {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+@media(min-width: 700px) {
+
+  .map {
+    margin-right: 20px;
+  }
+
+  .map iframe{
+    width: 300px;
+    height: 300px;
+  }
+
+  .map_address {
+    flex-direction: row;
+    align-items: unset;
+    margin-bottom: 30px;
+  }
+  .address {
+    margin: 0px;
+  }
+}
+
+@media(min-width: 900px) {
+  .inner_container {
+    width: 65%;
+  }
+
+  .map iframe{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media(max-width: 400px) {
+  .map iframe{
+    height: 300px;
+    width: 300px;
+  }
+}
